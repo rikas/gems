@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'geminabox'
 gem 'rack'
 gem 'puma'
+gem 'unicorn'
 
 group :development do
   gem 'capistrano', '~> 3.11.0'
