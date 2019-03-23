@@ -2,7 +2,7 @@ require 'rubygems'
 require 'geminabox'
 require 'rack'
 
-Geminabox.data = '/home/current/gems'
+Geminabox.data = '/home/ubuntu/current/gems'
 Geminabox.rubygems_proxy = true
 
 # Use Rack::Protection to prevent XSS and CSRF vulnerability if your geminabox server is open public.
